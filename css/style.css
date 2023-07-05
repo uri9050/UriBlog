@@ -69,6 +69,9 @@ img {
     align-items: center;
     justify-content: center;
 }
+.mayusculas{
+    text-transform: uppercase;
+}
 /** Utilidades **/
 .no-margin {
     margin: 0;
@@ -94,7 +97,13 @@ img {
     background-image: url(../img/SB.webp);
 }
 .webp .headerm11 {
-    background-image: url(../img/m2.webp);
+    background-image: url(../img/MR&M/fondo.webp);
+}
+.webp .headerMRM {
+    background-image: url(../img/MR&M/fondo.webp);
+}
+.webp .headerRS {
+    background-image: url(../img/R&S/fondo.webp);
 }
 .webp .headerd1 {
     background-image: url(../img/d1.webp);
@@ -121,6 +130,18 @@ img {
     background-position: center center;
 }
 .headerd1 {
+    height: 50rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.headerMRM {
+    height: 50rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.headerRS {
     height: 50rem;
     background-size: cover;
     background-repeat: no-repeat;
@@ -394,8 +415,28 @@ img {
     color: #3498db;
 }
 @media(min-width: 480px){
-    .e menu d a{
+    .e menu a{
         display:flex;
-        flex-direction: row;
+        flex-direction:row;
     }
+}
+/*Niveles de lista*/
+ul{
+    list-style-type: disc; /* nivel 1 */
+}
+ul ul {
+    list-style-type: circle; /* nivel 2 */
+}
+ul ul ul {
+    list-style-type: square; /* nivel 3 */
+}
+ul ul ul ul{
+    list-style-type: disc; /* nivel 4 */
+}
+ul ul ul ul ul{
+    list-style-type: circle; /* nivel 5 */
+}
+a{
+    text-decoration: none;
+    color: inherit;
 }

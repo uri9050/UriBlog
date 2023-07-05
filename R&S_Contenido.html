@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS_1</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="headerRS">
+
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Uri<span class="logo__bold">Blog</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="MR&M_Contenido.html" class="navegacion__enlace">MR&M</a>
+                    <a href="DS_Contenido.html" class="navegacion__enlace">DS</a>
+                    <a href="R&S_Contenido.html" class="navegacion__enlace">R&S</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__texto">
+            <h2 class="no-margin">Redes y Simulación</h2>
+            <p class="no-margin mayusculas">Temario</p>
+        </div>
+    </header>
+
+    <main class="contenedor">
+        <h3 class="centrar-texto mayusculas">Contenido</h3>
+        <div class="j">
+            <p>OBJETIVO<br>
+                El propósito es aprender a modelar sistemas dinámicos complejos (realidades artificiales) e interpretar los resultados de 
+                los modelos: el comportamiento emulado del sistema real, mediante experimentación en el modelo (realidad artificial). <br>
+                Se usará el paquete de dinámica de sistemas VENSIM. https://vensim.com/free-downloads/
+            </p>
+        </div>
+
+        <p class="mayusculas no-margin no-padding">Temario</p>
+        <ul class="no-margin">
+            <li><a href="" target="_self" class="mayusculas">1.- Introducción</a>
+                <ul>
+                    <li><a href="" target="_self">1.1. Concepto de simulación y tipos de simulación </a></li>
+                    <li><a href="" target="_self">1.2. Conceptos básicos de sistemas</a>
+                        <ul>
+                            <li><a href="" target="_self">Sistema</a></li>
+                            <li><a href="" target="_self">Estado del sistema: variables de nivel o de estado</a></li>
+                            <li><a href="" target="_self">Eventos del sistema: variables de flujo del sistema</a></li>
+                            <li><a href="" target="_self">Comportamiento del sistema</a></li>
+                            <li><a href="" target="_self">Entorno del sistema </a></li>
+                            <li><a href="" target="_self">Tipos de sistemas </a></li>
+                            <li><a href="" target="_self">Sistemas abiertos y cerrado </a></li>
+                        </ul>
+                    </li><!--Termina 1.2-->
+                    <li><a href="" target="_self">1.3. Modelación</a>
+                        <ul>
+                            <li><a href="" target="_self">Definición de modelo </a></li>
+                            <li><a href="" target="_self">Tipos de modelos </a></li>
+                            <li><a href="" target="_self">Método general de modelación</a>
+                                <ul>
+                                    <li><a href="" target="_self">Modelo conceptual</a>
+                                        <ul>
+                                            <li><a href="" target="_self">Descripción verbal</a></li>
+                                            <li><a href="" target="_self">Diagramas de causa a efecto </a></li>
+                                            <li><a href="" target="_self">Modelo gráfico </a></li>                                
+                                        </ul>
+                                    </li><!--Termina Modelo conceptual-->
+                                    <li><a href="" target="_self">Modelo matemático </a></li>
+                                    <li><a href="" target="_self">Programa computacional </a></li>
+                                    <li><a href="" target="_self">Interpretación de resultados </a></li>
+                                    <li><a href="" target="_self">Evaluación del modelo </a>
+                                        <ul>
+                                            <li><a href="" target="_self">Exactitud: modelo vs sistema real </a></li>
+                                            <li><a href="" target="_self">Resultado: comportamiento</a></li>                                
+                                        </ul>
+                                    </li><!--Termina Evaluación del modelo-->      
+                                </ul>
+                            </li><!--Termina Método general de modelación-->        
+                        </ul>
+                    </li><!--Termina 1.3-->
+                </ul>
+            </li><!--Termina 1-->
+
+            <li><a href="" target="_self" class="mayusculas"></a>
+            </li><!--Termina-->
+            <li><a href="" target="_self"></a></li>
+            
+            <button class="boton boton--primario mayusculas" onclick="toggleContent()">Bibliografía</button>
+                <div id="contenido" style="display: none;">
+                    <ul>
+                        <li>ARACIL, J. (1995). Dinámica de sistemas. Madrid, España: Isdefe.</li>
+                        <li>FORRESTER, J. W. (1973). Principles of Systems. Cambridges, Massachusetts: Wright-Allen Press.</li>
+                        <li>GOODMAN, M. R. (1974). Study Notes in Systems Dynamics. Cambridge, Massachusetts: WrightAllen Press.</li>
+                        <li>MARTIN-GARCÍA, J. (2012). Dinámica de sistemas. Conceptos. Barcelona, España: Juan Martín García. </li>
+                        <li>Ventana Systems, Inc. (s.f.). Vensim. Obtenido de <a rel="stylesheet" href="https://vensim.com/vensim-personal-learningedition/">https://vensim.com/vensim-personal-learningedition/</a></li>
+                        <li>(MARTIN-GARCÍA, 2012)</li>
+                    </ul>
+                </div><!--Termina bibliografía-->
+        </ul>
+    </main>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Uri<span class="logo__bold">Blog</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="MR&M_Contenido.html" class="navegacion__enlace">MR&M</a>
+                    <a href="DS_Contenido.html" class="navegacion__enlace">DS</a>
+                    <a href="R&S_Contenido.html" class="navegacion__enlace">R&S</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/modernizr.js"></script>
+    <script src="js/funciones.js"></script>
+</body>
+</html>
