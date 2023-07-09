@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS_1</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="headerd1">
+
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Uri<span class="logo__bold">Blog</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="MR&M_Contenido.html" class="navegacion__enlace">MR&M</a>
+                    <a href="DS_Contenido.html" class="navegacion__enlace">DS</a>
+                    <a href="R&S_Contenido.html" class="navegacion__enlace">R&S</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__texto">
+            <h2 class="no-margin">Dinámica de sistemas</h2>
+            <p class="no-margin mayusculas">UNIDAD 2. Conceptos fundamentales de dinámica de sistemas</p>
+        </div>
+    </header>
+
+    <main class="contenedor">
+        <h3 class="centrar-texto">Unidad 2. Conceptos fundamentales de dinámica de sistemas</h3>
+        <div class="justificar">
+            <ul>
+                <h4 class="no-margin">2.2.1.1. Retroalimentación negativa</h4>
+                <h4 class="no-margin centrar-texto">2.2.1.1.3. Modelación del ejemplo </h4>
+                Para modelar el ejemplo del llenado de la caja de agua de un WC utilizando retroalimentación
+                negativa, se puede utilizar un enfoque basado en la dinámica de sistemas. A continuación,
+                se muestra un modelo simplificado del sistema:
+                <ul>
+                    <li>
+                        Variables:
+                        <ul>
+                            <li>
+                                Nivel de agua en la caja del WC (Stock)
+                            </li>
+                            <li>
+                                Flujo de entrada de agua (Flujo)
+                            </li>
+                            <li>
+                                Flujo de salida de agua (Flujo)
+                            </li>
+                            <li>
+                                Nivel deseado de agua en la caja (Parámetro)
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Relaciones:
+                        <ul>
+                            <li>
+                                El flujo de entrada de agua está influenciado por la diferencia entre el 
+                                nivel deseado de agua en la caja y el nivel actual de agua.
+                            </li>
+                            <li>
+                                El flujo de salida de agua es constante y se mantiene abierto durante 
+                                la descarga del inodoro.
+                            </li>
+                            <li>
+                                El nivel de agua en la caja aumenta con el flujo de entrada y 
+                                disminuye con el flujo de salida.
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                    Agregar el diagrama <br>
+                    En este modelo, el flujo de entrada de agua se activa cuando hay una diferencia 
+                    entre el nivel deseado de agua en la caja y el nivel actual de agua. Si el nivel de
+                    agua está por debajo del nivel deseado, el flujo de entrada aumenta para aumentar el
+                    nivel de agua en la caja. A medida que el nivel de agua se acerca al nivel deseado,
+                    el flujo de entrada disminuye hasta que el nivel se estabiliza. <br>
+                    La retroalimentación negativa se logra mediante el nodo de equilibrio (stock), que 
+                    representa el nivel acumulado de agua en la caja del WC. El flujo de entrada se 
+                    ajusta en función del nivel de agua, y a medida que el nivel aumenta, el flujo de 
+                    entrada se reduce, evitando que el sistema se sobrecargue de agua. <br>
+                    Este modelo simplificado ilustra cómo la retroalimentación negativa estabiliza el 
+                    nivel de agua en la caja del WC, manteniéndolo dentro del rango deseado. La 
+                    retroalimentación negativa ajusta automáticamente el flujo de entrada para 
+                    equilibrar el sistema y mantener un nivel constante de agua.
+                <h3></h3>
+                <h4 class="no-margin centrar-texto">2.2.1.1.4. Comportamientos típicos</h4>
+                La retroalimentación negativa en un sistema puede dar lugar a diferentes comportamientos,
+                que dependen de la configuración y las características del sistema. Aquí están algunos 
+                comportamientos típicos asociados a la retroalimentación negativa:
+                <ul>
+                    <li>
+                        Estabilidad: La retroalimentación negativa tiende a estabilizar un sistema al 
+                        regular y mantener las variables dentro de rangos deseados. Cuando hay 
+                        perturbaciones o cambios en la entrada, la retroalimentación negativa actúa para
+                        corregirlos y restaurar el equilibrio.
+                    </li>
+                    <li>
+                        Ajuste automático: La retroalimentación negativa permite un ajuste automático 
+                        en respuesta a las condiciones cambiantes. Cuando una variable se desvía del 
+                        valor deseado, la retroalimentación negativa modifica las acciones o flujos en 
+                        el sistema para reducir esa desviación y llevarlo de nuevo al equilibrio
+                    </li>
+                    <li>
+                        Respuesta transitoria amortiguada: Cuando se produce una perturbación en el 
+                        sistema, la retroalimentación negativa permite una respuesta transitoria 
+                        amortiguada. Esto significa que las fluctuaciones en la salida del sistema se 
+                        reducen gradualmente hasta que se alcanza un estado estable.
+                    </li>
+                    <li>
+                        Reducción de la variabilidad: La retroalimentación negativa disminuye la 
+                        variabilidad en el sistema al ajustar continuamente las acciones o flujos para 
+                        mantener las variables dentro de rangos deseables. Esto puede resultar en una
+                        mayor consistencia y predictibilidad en el comportamiento del sistema.
+                    </li>
+                    <li>
+                        Mantenimiento del equilibrio: La retroalimentación negativa ayuda a mantener un
+                        equilibrio dinámico en el sistema. A medida que las condiciones cambian, la 
+                        retroalimentación negativa actúa para compensar esas variaciones y mantener el 
+                        sistema en un estado deseado.
+                    </li>
+                </ul>
+                En general, la retroalimentación negativa tiende a estabilizar y regular el 
+                comportamiento de los sistemas, permitiendo un ajuste automático y una respuesta 
+                amortiguada a las perturbaciones. Estos comportamientos son esenciales para mantener
+                la estabilidad y el equilibrio en una amplia gama de sistemas, desde sistemas 
+                físicos y biológicos hasta sistemas sociales y organizacionales.
+            </ul>
+        </div>
+
+        <div class="pla_d">
+            <a href="DS_S2_3.html" class="navegacion__enlace boton--primario boton" >Pag ant</a>
+            <a href="" class="navegacion__enlace boton--primario boton" ></a>
+            <a href="" class="navegacion__enlace boton--primario boton" ></a>
+            <a href="" class="navegacion__enlace boton--primario boton" ></a>
+            <a href="DS_S2_5.html" class="navegacion__enlace boton--primario boton" >Sig pag</a>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Uri<span class="logo__bold">Blog</span></h1>
+                </a>
+                <nav class="navegacion">
+                    <a href="MR&M_Contenido.html" class="navegacion__enlace">MR&M</a>
+                    <a href="DS_Contenido.html" class="navegacion__enlace">DS</a>
+                    <a href="R&S_Contenido.html" class="navegacion__enlace">R&S</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/modernizr.js"></script>
+</body>
+</html>

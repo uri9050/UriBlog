@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS_1</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="headerd1">
+
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Uri<span class="logo__bold">Blog</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="MR&M_Contenido.html" class="navegacion__enlace">MR&M</a>
+                    <a href="DS_Contenido.html" class="navegacion__enlace">DS</a>
+                    <a href="R&S_Contenido.html" class="navegacion__enlace">R&S</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__texto">
+            <h2 class="no-margin">Dinámica de sistemas</h2>
+            <p class="no-margin mayusculas">UNIDAD 2. Conceptos fundamentales de dinámica de sistemas</p>
+        </div>
+    </header>
+
+    <main class="contenedor">
+        <h3 class="centrar-texto">Unidad 2. Conceptos fundamentales de dinámica de sistemas</h3>
+        <div class="justificar">
+            <ul>
+                <h4 class="no-margin">2.2.1.1. Retroalimentación negativa</h4>
+            <h4 class="no-margin centrar-texto"> 2.2.1.1.1. Ejemplo: llenado de la caja de agua de un WC</h4>
+            Un ejemplo común de retroalimentación negativa en un sistema es el proceso de llenado de 
+            la caja de agua de un WC (water closet o inodoro). En este caso, el sistema está diseñado 
+            para mantener un nivel constante de agua en la caja, lo que garantiza un funcionamiento 
+            adecuado del inodoro. Veamos cómo funciona este sistema con retroalimentación negativa:
+            <ul class="no-margin">
+                <li>
+                    1. El sistema consta de una caja de agua conectada a una tubería de suministro de 
+                    agua y un flotador. El flotador está diseñado para subir y bajar con el nivel de 
+                    agua en la caja.
+                </li>
+                <li>
+                    2. Cuando se acciona la descarga del inodoro, se abre una válvula de descarga y el 
+                    agua comienza a salir de la caja. A medida que el nivel de agua desciende, el 
+                    flotador también baja.
+                </li>
+                <li>
+                    3. El flotador está conectado a una válvula de llenado en la tubería de suministro 
+                    de agua. A medida que el flotador baja, activa la válvula de llenado y permite que 
+                    el agua entre en la caja.
+                </li>
+                <li>
+                    4. A medida que el agua entra en la caja, el nivel de agua aumenta y el flotador 
+                    sube con él. Una vez que el nivel de agua alcanza una posición determinada, el 
+                    flotador cierra la válvula de llenado, deteniendo el flujo de agua.
+                </li>
+                <li>
+                    5. Este proceso de retroalimentación negativa asegura que el nivel de agua en la 
+                    caja se mantenga constante. Si el nivel de agua es demasiado bajo, el flotador baja,
+                    activa la válvula de llenado y el agua entra en la caja. Si el nivel de agua es 
+                    demasiado alto, el flotador sube y cierra la válvula de llenado, deteniendo la 
+                    entrada de agua.
+                </li>
+            </ul>
+            En este ejemplo, la retroalimentación negativa es crucial para mantener el nivel de agua 
+            en la caja del inodoro dentro de un rango óptimo. Evita que el agua se desborde o que haya
+            muy poca agua para un adecuado funcionamiento del inodoro. El sistema se autorregula 
+            mediante la retroalimentación negativa del flotador y la válvula de llenado para mantener 
+            un equilibrio constante.
+            <h3></h3>
+            <h4 class="no-margin centrar-texto">2.2.1.1.2. Principios de diagramación de Forrester</h4>
+            La retroalimentación negativa es un concepto clave en la dinámica de sistemas, y los 
+            principios de diagramación de Forrester son una herramienta utilizada para representar 
+            gráficamente los sistemas y sus interacciones. Aquí están los principios de diagramación de
+            Forrester relacionados con la retroalimentación negativa:
+            <ul>
+                <li>
+                    Componentes básicos: Los diagramas de Forrester utilizan componentes básicos para 
+                    representar variables y relaciones en el sistema. Los principales componentes son 
+                    los "nodos" (variables) y las "flechas" (flujos o conexiones causales).
+                </li>
+                <li>
+                    Retroalimentación negativa: En los diagramas de Forrester, la retroalimentación 
+                    negativa se representa mediante un "nodo de equilibrio" o "stock". Un nodo de 
+                    equilibrio almacena una cantidad acumulada, como un nivel de inventario o una 
+                    población. La retroalimentación negativa se produce cuando un flujo de salida de un
+                    nodo de equilibrio afecta su nivel acumulado, lo que a su vez influye en los flujos
+                    de entrada y puede estabilizar el sistema.
+                </li>
+                <li>
+                    Flechas de flujo: Las flechas de flujo en los diagramas de Forrester representan la
+                    dirección y el sentido de los flujos causales entre los nodos. Las flechas que 
+                    apuntan hacia un nodo de equilibrio representan los flujos de entrada, mientras que 
+                    las flechas que salen de un nodo de equilibrio representan los flujos de salida. Estas
+                    flechas capturan las relaciones de causa y efecto entre las variables del sistema.
+                </li>
+                <li>
+                    Equilibrio dinámico: Los diagramas de Forrester permiten representar el equilibrio 
+                    dinámico en un sistema. En un sistema con retroalimentación negativa, los nodos de 
+                    equilibrio tienden a estabilizar el sistema y mantenerlo en un estado de equilibrio
+                    a largo plazo. La retroalimentación negativa ajusta los flujos de entrada y salida 
+                    para mantener el nivel acumulado dentro de ciertos límites.
+                </li>
+                <li>
+                    Análisis de políticas: Los diagramas de Forrester también se utilizan para analizar
+                    el impacto de diferentes políticas o intervenciones en el sistema. Al modificar los 
+                    flujos o las relaciones entre los nodos, se puede evaluar cómo las políticas afectan 
+                    el equilibrio y el comportamiento general del sistema.
+                </li>
+            </ul>
+            Estos principios de diagramación de Forrester proporcionan una forma visual de representar 
+            y comprender la retroalimentación negativa en un sistema. Los diagramas de Forrester 
+            permiten analizar las interacciones entre variables, identificar la estabilidad o inestabilidad
+            del sistema y evaluar el impacto de las políticas o intervenciones en el comportamiento del sistema.
+        </div>
+
+        <div class="pla_d">
+            <a href="DS_S2_1.html" class="navegacion__enlace boton--primario boton" >Pag ant</a>
+            <a href="" class="navegacion__enlace boton--primario boton" ></a>
+            <a href="" class="navegacion__enlace boton--primario boton" ></a>
+            <a href="" class="navegacion__enlace boton--primario boton" ></a>
+            <a href="DS_S2_4.html" class="navegacion__enlace boton--primario boton" >Sig pag</a>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Uri<span class="logo__bold">Blog</span></h1>
+                </a>
+                <nav class="navegacion">
+                    <a href="MR&M_Contenido.html" class="navegacion__enlace">MR&M</a>
+                    <a href="DS_Contenido.html" class="navegacion__enlace">DS</a>
+                    <a href="R&S_Contenido.html" class="navegacion__enlace">R&S</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/modernizr.js"></script>
+</body>
+</html>

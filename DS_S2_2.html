@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS_1</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="headerd1">
+
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Uri<span class="logo__bold">Blog</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="MR&M_Contenido.html" class="navegacion__enlace">MR&M</a>
+                    <a href="DS_Contenido.html" class="navegacion__enlace">DS</a>
+                    <a href="R&S_Contenido.html" class="navegacion__enlace">R&S</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__texto">
+            <h2 class="no-margin">Dinámica de sistemas</h2>
+            <p class="no-margin mayusculas">UNIDAD 2. Conceptos fundamentales de dinámica de sistemas</p>
+        </div>
+    </header>
+
+    <main class="contenedor">
+        <h3 class="centrar-texto">Unidad 2. Conceptos fundamentales de dinámica de sistemas</h3>
+        <div class="justificar">
+            <h4 class="no-margin">2.2. Conceptos fundamentales de Dinámica de sistemas</h4>
+            <ul>
+                <h4 class="no-margin"> 2.2.1.Circuitos elementales con retroalimentación de primer orden</h4>
+                En los circuitos elementales con retroalimentación de primer orden, la retroalimentación
+                puede ser negativa o positiva, lo que tiene un impacto significativo en el 
+                comportamiento del sistema. Aquí se explica brevemente cada tipo de retroalimentación:
+                <ul>
+                    <li>
+                        Retroalimentación negativa: En un circuito con retroalimentación negativa,
+                        la señal de retroalimentación se suma a la señal de entrada con una polaridad
+                        opuesta. Esto tiende a estabilizar el sistema y reducir las variaciones en la 
+                        salida. La retroalimentación negativa tiene la capacidad de corregir errores y
+                        mantener el sistema dentro de límites deseados. Ayuda a estabilizar el sistema
+                        y mejorar su precisión y respuesta transitoria. En sistemas de control, la 
+                        retroalimentación negativa se utiliza para ajustar y mantener la salida del 
+                        sistema cerca del valor de referencia deseado.
+                    </li>
+                    <li>
+                        Retroalimentación positiva: En un circuito con retroalimentación positiva,
+                        la señal de retroalimentación se suma a la señal de entrada con la misma 
+                        polaridad. Esto tiende a amplificar las variaciones en la salida y puede 
+                        llevar a un comportamiento inestable o incluso a la oscilación del sistema. 
+                        La retroalimentación positiva tiene la capacidad de amplificar y magnificar 
+                        los cambios, lo que puede ser útil en aplicaciones como los osciladores, 
+                        donde se desea generar una señal periódica. Sin embargo, en la mayoría de los
+                        sistemas, la retroalimentación positiva no es deseada, ya que puede llevar 
+                        a respuestas incontrolables y resultados no deseados.
+                    </li>
+                </ul>
+                La elección entre retroalimentación negativa y positiva depende del objetivo del 
+                sistema y el comportamiento deseado. La retroalimentación negativa se utiliza 
+                comúnmente para estabilizar y controlar sistemas, mientras que la retroalimentación 
+                positiva se utiliza en aplicaciones específicas donde se requiere amplificación o
+                generación de señales oscilantes. <br>
+                Es importante tener en cuenta que la retroalimentación positiva puede ser 
+                inestable y potencialmente dañina para los sistemas, ya que puede causar una 
+                amplificación sin límites y llevar a la saturación o destrucción de los componentes. 
+                Por lo tanto, es necesario tener precaución y diseñar cuidadosamente los circuitos 
+                que utilizan retroalimentación positiva para evitar condiciones no deseadas.
+            </ul>
+            <h3></h3>
+            <h4 class="no-margin centrar-texto">2.2.1.1. Retroalimentación negativa</h4>
+            En los circuitos elementales con retroalimentación de primer orden, la retroalimentación 
+            negativa es una configuración común y poderosa. En este tipo de retroalimentación, parte de
+            la salida del circuito se retroalimenta y se suma a la entrada con polaridad opuesta. Esto 
+            tiene el efecto de estabilizar y controlar el comportamiento del circuito. A continuación, 
+            se presentan algunos ejemplos de circuitos elementales con retroalimentación negativa:
+            <ul>
+                <li>
+                    1. Amplificador operacional en configuración inversora: En este circuito, un 
+                    amplificador operacional se configura con una resistencia de retroalimentación 
+                    conectada desde la salida hacia la entrada inversora. La retroalimentación negativa
+                    hace que la ganancia del amplificador sea negativa y controlada por la relación de 
+                    resistencias. Este circuito se utiliza comúnmente para amplificar señales y 
+                    proporcionar estabilidad.
+                </li>
+                <li>
+                    2. Amplificador operacional en configuración no inversora: En este circuito, un 
+                    amplificador operacional se configura con una resistencia de retroalimentación 
+                    conectada desde la salida hacia la entrada no inversora. La retroalimentación 
+                    negativa hace que la ganancia del amplificador sea positiva y controlada por la 
+                    relación de resistencias. Este circuito también se utiliza para amplificar señales 
+                    y proporcionar estabilidad.
+                </li>
+                <li>
+                    3. Circuito RC con amplificador: En este circuito, se combina un circuito RC 
+                    (resistencia-capacitancia) con un amplificador. La retroalimentación negativa se 
+                    logra mediante la conexión de una resistencia desde la salida del amplificador hacia
+                    el nodo de entrada del circuito RC. Esta configuración permite ajustar y controlar 
+                    la respuesta temporal y frecuencial del circuito.
+                </li>
+                <li>
+                    4. Oscilador con retroalimentación negativa: Un oscilador con retroalimentación 
+                    negativa es un circuito que genera una señal periódica. La retroalimentación 
+                    negativa asegura que la salida del circuito se retroalimente y se sume con 
+                    polaridad opuesta, lo que genera una oscilación estable. Ejemplos comunes de 
+                    osciladores con retroalimentación negativa incluyen osciladores de Wien-bridge y 
+                    osciladores de Colpitts.
+                </li>
+            </ul>
+            Estos son solo algunos ejemplos de circuitos elementales con retroalimentación negativa. 
+            La retroalimentación negativa en estos circuitos tiene el propósito de estabilizar, 
+            controlar y mejorar el comportamiento del sistema, asegurando una respuesta lineal, una 
+            ganancia controlada y una mayor estabilidad en general.
+        </div>
+
+        <div class="pla_d">
+            <a href="DS_S2_1.html" class="navegacion__enlace boton--primario boton" >Pag ant</a>
+            <a href="" class="navegacion__enlace boton--primario boton" ></a>
+            <a href="" class="navegacion__enlace boton--primario boton" ></a>
+            <a href="" class="navegacion__enlace boton--primario boton" ></a>
+            <a href="DS_S2_3.html" class="navegacion__enlace boton--primario boton" >Sig pag</a>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Uri<span class="logo__bold">Blog</span></h1>
+                </a>
+                <nav class="navegacion">
+                    <a href="MR&M_Contenido.html" class="navegacion__enlace">MR&M</a>
+                    <a href="DS_Contenido.html" class="navegacion__enlace">DS</a>
+                    <a href="R&S_Contenido.html" class="navegacion__enlace">R&S</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/modernizr.js"></script>
+</body>
+</html>
